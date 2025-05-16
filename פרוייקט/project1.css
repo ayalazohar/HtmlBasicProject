@@ -1,0 +1,193 @@
+.page1_1 {
+    background: url('./h.w/תמונה\ של\ עמוד\ 1.webp') center/cover no-repeat;
+    padding: 12%;
+    color: white;
+    font-size: 330%;
+    line-height: 0.3em;
+}
+
+h3 {
+    font-size: 60%;
+    margin-top: 20%;
+
+}
+
+#car2 p,
+#car_y {
+    line-height: 1.7em;
+}
+
+/*----------------------------------
+*/
+#car2_1 {
+    clip-path: polygon(25% 0%, 100% 0%, 85% 100%, 0% 100%);
+    position: relative;
+    width: 62.5%;
+}
+
+p {
+    width: 35%;
+    margin-top: 15vh;
+    margin-left: 3.5vh;
+}
+
+#car2 {
+    display: flex
+}
+
+#aside1 {
+    display: flex
+}
+
+
+#car_g {
+    clip-path: polygon(0% 50%, 25% 0%, 100% 0%, 85% 100%, 0% 100%);
+    position: relative;
+    width: 60%;
+
+}
+
+#car_y {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    position: relative;
+    width: 65.5%;
+    margin-left: 7.3vh;
+}
+
+#aside2 {
+    display: flex
+}
+
+#p1 {
+    width: 28%;
+    line-height: 1.6em;
+    margin-left: 5vh;
+
+}
+
+#img {
+    margin-left: 10px;
+}
+
+#car_w {
+    clip-path: polygon(0% 45%, 15% 0%, 100% 0%, 75% 100%, 0% 100%);
+    position: relative;
+    width: 69%;
+    margin-left: 0;
+   
+}
+
+#aside3 {
+    display: flex
+}
+
+#aside3 p {
+    width: 20%;
+    margin-top: 20vh;
+}
+
+#b_d {
+    font-size: xx-large;
+}
+.footer1{
+margin-top: 1.3vh;
+}
+
+/*----------רספונסיביות------------
+ */
+@media(max-width:934px) {
+    #project1_1 {
+        display: block;
+
+    }
+
+    .page1_1 {
+        width: 934px;
+        padding-left: 0;
+        padding-right: 5vh;
+        padding-bottom: 80%;
+    }
+
+    p {
+        width: 90%;
+        margin-left: 6.7vh;
+    }
+
+    #car_y,
+    #car_w,
+    #car_g,
+    #car2_1 {
+        clip-path: none;
+        display: block;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #car_y,
+    #car2_1 {
+        order: -1;
+    }
+
+    #aside1 {
+        display: block;
+    }
+
+    #aside3 #car_w,
+    #car2_1{
+        position: absolute;
+        margin-left: 6.7vh;
+
+    }
+
+    #car2_1 {
+        margin-top: 1vh;
+
+    }
+
+    #car2 p {
+        margin-top: 70vh;
+    }
+
+    #aside2 #p1 {
+        margin-top: 95vh;
+        width: 90%;
+
+    }
+
+    #aside3 p {
+        margin-top: 63vh;
+        width: 90%;
+    }
+
+    #aside2 #p1 {
+        margin-top: 9vh;
+    }
+
+    #img,
+    #co0 {
+        width: 40%;
+        height: 5vh;
+    }
+
+    #co {
+        width: 50%;
+        height: 3vh;
+    }
+
+
+    #b_d {
+        font-size: xx-large;
+    }
+
+    #aside1 p {
+        margin-top: 7.5vh;
+    }
+
+    .footer1 {
+        width:91vh;
+        margin-top: -15vh;
+    }
+
+
+}

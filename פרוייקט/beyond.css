@@ -1,0 +1,123 @@
+article {
+    background: url('./h.w/beyond.jpg') center/cover no-repeat;
+    padding: 20%;
+    color: white;
+    font-size: 330%;
+    line-height: 0.3em;
+}
+
+h3 {
+    font-size: 60%;
+    margin-left: -10vh;
+}
+
+article h1 {
+    margin-left: -10vh;
+}
+
+#p2 {
+    line-height: 2em;
+    /* margin-right: 10vh; */
+    line-height: 2em;
+}
+
+
+/*---------------
+*/
+#cut-image {
+
+    clip-path: polygon(0% 0%, 100% 0%, 80% 80%, 0% 500%);
+    position: relative;
+    margin-top: 10vh;
+    /* width: 60%; */
+    height: auto;
+}
+
+/*--------------------
+*/
+.cut-image1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.cut-image1 img {
+    margin-right: 25vh;
+
+
+}
+
+#p2 {
+    font-size: 100%;
+
+}
+
+/*------------------------
+*/
+
+.beyonds,
+.beyonds1,
+.beyonds2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.beyonds img,
+.beyonds1 img,
+.beyonds2 img {
+    margin-right: 15vh;
+    margin-left: 15Vh;
+    margin-top: 10vh;
+    width: 46%;
+}
+
+#w,
+#w1,
+#w2 {
+    font-size: 130%;
+}
+
+/*----------רספונסיביות------------
+*/
+@media (max-width:960px) {
+
+    .beyonds,
+    .beyonds1,
+    .beyonds2 {
+        display: block;
+        text-align: center;
+    }
+
+    .beyonds img,
+    .beyonds1 img,
+    .beyonds2 img {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    #w,
+    #w1,
+    #w2 {
+        font-size: 200%;
+    }
+
+    .cut-image1 img {
+        margin-right: 1vh;
+    }
+
+    article {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 80%;
+    }
+    aside #p2{
+    margin-left: 0.5vh;
+    margin-top: 10vh;
+    }
+
+
+
+
+}

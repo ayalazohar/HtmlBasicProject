@@ -1,0 +1,158 @@
+article{
+    background: url('./h.w/רקע-אפור.jpg') center/cover no-repeat;
+    padding: 12%;
+    color: #fff;
+    font-size: 330%;
+    line-height: 0.5em;
+
+}
+video{
+    width: 100%;
+}
+
+.dealer {
+    background: url('./h.w/lam2.jpg') center/cover no-repeat;
+    padding: 2%;
+    color: #fff;
+    font-size: 270%;
+    line-height: 0.5em;
+    margin-top: -3vh;
+}
+h3 {
+    font-size: 60%;
+}
+
+aside {
+    background-color: white;
+    height: 600px;
+    padding: 1px;
+}
+
+section {
+    font-size: 330%;
+    line-height: 0.5em;
+    margin-left: 20vh;
+
+}
+
+.newspolice {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ASide p{
+    font-size: x-large;
+    text-align: left;
+    margin-left: 15vh;
+}
+
+ASide p p {
+    font-size: large;
+    margin-top: -3vh;
+    text-align: left;
+    margin-left: 15vh;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-left: 15vh;
+    padding: 0;
+
+}
+
+.content1 h1 {
+    font-size: smaller;
+}
+
+section {
+    line-height: 0.1em;
+}
+
+/*-------------------------------
+*/
+
+.n1,
+.n2,
+.n3 {
+    display: flex;
+    align-items: center;
+}
+
+.n1 img,
+.n2 img,
+.n3 img {
+    margin-right: 15vh;
+    margin-left: 15VH;
+    margin-top: 10vh;
+
+}
+
+#w,
+#w1,
+#w2 {
+    font-size: 130%;
+}
+
+.footer1 {
+    width: 100;
+    background-color: black;
+    color: white;
+    height: max-content;
+    font: optional;
+    text-align: left;
+
+}
+
+/*----------רספונסיביות------------
+*/
+@media (max-width:934px) {
+    .dealer h1 {
+        font-size: 115%;
+    }
+
+    section {
+        line-height: 1.5em;
+        margin-left: 13vh;
+    }
+
+    section h1 {
+        font-size: 110%;
+        margin-top: -5vh;
+
+    }
+ 
+
+    .n1 img,
+    .n2 img,
+    .n3 img {
+        margin-right: 3vh;
+        margin-left: 5vh;
+       
+    }
+
+    article{
+        display: block;
+        padding: 40%;
+        padding-bottom: 40%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 400%;
+    }
+
+    header button {
+        font-size:110%;
+    }
+
+
+    ASide P{
+        margin-left: 8vh;
+    }
+
+    ASide P P{
+        margin-left: 8vh;
+    }
+
+}

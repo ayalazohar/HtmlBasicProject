@@ -1,0 +1,50 @@
+div {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+iframe {
+    margin-top: 100px;
+}
+
+aside {
+    width: 19.84%;
+    line-height: 8vh;
+    margin-top: 100px;
+    color: black;
+    font-size: smaller;
+    border: 1px solid black;
+}
+
+
+details {
+    margin-left: 6%;
+}
+
+header {
+    border: 1px solid black;
+}
+aside p{
+    margin-left: 2vh;
+}
+
+
+
+@media (max-width:960px) {
+iframe{
+width: 79.9%;
+}
+aside{
+    font-size: larger;
+    line-height: 8.5vh;
+}
+aside p{
+    margin-left: 1vh;
+}
+
+
+
+
+
+
+}
